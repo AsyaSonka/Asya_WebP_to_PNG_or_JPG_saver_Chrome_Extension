@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Save Images as PNG or JPG From AsyaStudio",
+  "version": "1.0.0",
+  "description": "Save WebP and other images as PNG or JPG from the context menu. Right click on image than in context menu select 'Save image as PNG or JPG' then select folder and press 'Save' button. Enjoy! ",
+  "permissions": [
+    "contextMenus",
+    "downloads",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "Asya's WebP Image to PNG or JPG saver"
+  }
+}
